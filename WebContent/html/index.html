@@ -1,0 +1,269 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>晒迷人,微信公众号,微信商城,网上商城,APP,门户网站,管理软件定制开发。电话：18103857686</title>
+<meta name="description" content="晒迷人,微信公众号,微信商城,网上商城,APP,门户网站,管理软件定制开发。电话：18103857686">
+<meta name="keywords" content="晒迷人,微信公众号,微信商城,网上商城,APP,门户网站,管理软件定制开发。电话：18103857686">
+<link rel="icon" type="image/png" href="../../img/favicon.png">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	
+
+
+<script type="text/javascript">
+	function openPage(requestUrl) {
+		var htmlName = "htmlName";
+		var htmlNameIdx = requestUrl.indexOf("htmlName");
+		if (htmlNameIdx > -1) {
+			htmlName = requestUrl.substring(htmlNameIdx + 9);
+		}
+		var htmlUrl = "../../html/" + htmlName + ".html";
+		$.ajax({
+			url : htmlUrl,
+			success : function(data) {
+				//存在静态页面，则打开
+				window.location.href = htmlUrl;
+			},
+			error : function() {
+				//不存在静态页面，则动态申请页面
+				window.location.href = requestUrl;
+			}
+		});
+	}
+</script>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">晒迷人</span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand"
+				href="../../common/qiantai/gotoPage.do?gotourl=index"><span
+				style="color: white">晒迷人</span></a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse"
+			id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+					
+						<li><a href="javascript:void(0)"
+							onClick="openPage('../../common/qiantai/gotoPage.do?gotourl=index&typename=首页&typeid=93ba19af8e304aeda8c8cd6829e46e9c&typepath=0.93ba19af8e304aeda8c8cd6829e46e9c&htmlName=93ba19af8e304aeda8c8cd6829e46e9c')">首页</a></li>
+					
+					
+				
+					
+					
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">业务范围 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsImgList.do?demo=1&typename=网站开发&typeid=a846d56c74a8464a89d194ef08021317&typepath=0.983dc669958a49a7892c635988b4b76a.a846d56c74a8464a89d194ef08021317&htmlName=a846d56c74a8464a89d194ef08021317')"
+										href="javascript:void(0)">网站开发</a></li>
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsList.do?demo=1&typename=微信开发&typeid=b34133e0ef504ed4af68f1be4f4b4bda&typepath=0.983dc669958a49a7892c635988b4b76a.b34133e0ef504ed4af68f1be4f4b4bda&htmlName=b34133e0ef504ed4af68f1be4f4b4bda')"
+										href="javascript:void(0)">微信开发</a></li>
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsImgList.do?demo=1&typename=APP开发&typeid=9052a9d72dba4ff1b76ead6e7fbe3116&typepath=0.983dc669958a49a7892c635988b4b76a.9052a9d72dba4ff1b76ead6e7fbe3116&htmlName=9052a9d72dba4ff1b76ead6e7fbe3116')"
+										href="javascript:void(0)">APP开发</a></li>
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsImgList.do?demo=1&typename=办公软件开发&typeid=a54c14b8bfbd4d32a6aea6348f13123d&typepath=0.983dc669958a49a7892c635988b4b76a.a54c14b8bfbd4d32a6aea6348f13123d&htmlName=a54c14b8bfbd4d32a6aea6348f13123d')"
+										href="javascript:void(0)">办公软件开发</a></li>
+								
+							</ul></li>
+					
+				
+					
+					
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">新闻中心 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsList.do?demo=1&typename=新闻动态&typeid=8085d0004ce64dcdb2e3bd778172684d&typepath=0.40b3488ed18a4c1a85f9fdb92f2965ff.8085d0004ce64dcdb2e3bd778172684d&htmlName=8085d0004ce64dcdb2e3bd778172684d')"
+										href="javascript:void(0)">新闻动态</a></li>
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsList.do?demo=1&typename=行业资讯&typeid=e812dfe7ab4945edbc855f61aea9dd74&typepath=0.40b3488ed18a4c1a85f9fdb92f2965ff.e812dfe7ab4945edbc855f61aea9dd74&htmlName=e812dfe7ab4945edbc855f61aea9dd74')"
+										href="javascript:void(0)">行业资讯</a></li>
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsImgList.do?demo=1&typename=活动促销&typeid=8d1aadacbb5142308855b5a20bfd34b0&typepath=0.40b3488ed18a4c1a85f9fdb92f2965ff.8d1aadacbb5142308855b5a20bfd34b0&htmlName=8d1aadacbb5142308855b5a20bfd34b0')"
+										href="javascript:void(0)">活动促销</a></li>
+								
+							</ul></li>
+					
+				
+					
+						<li><a href="javascript:void(0)"
+							onClick="openPage('../../news/qiantai/getNewsContentWithTitleMenu.do?demo=1&typename=人才招聘&typeid=2a30b0233aa145ef8af178539b95b73d&typepath=0.2a30b0233aa145ef8af178539b95b73d&htmlName=2a30b0233aa145ef8af178539b95b73d')">人才招聘</a></li>
+					
+					
+				
+					
+					
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">公司风采 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsImgList.do?demo=1&typename=合作单位&typeid=14239d947fdf4e22a4e3a1b75edb9d51&typepath=0.61d605b67e7c47d08d129a05bb370020.14239d947fdf4e22a4e3a1b75edb9d51&htmlName=14239d947fdf4e22a4e3a1b75edb9d51')"
+										href="javascript:void(0)">合作单位</a></li>
+								
+									<li><a
+										onClick="openPage('../../news/qiantai/getNewsImgList.do?demo=1&typename=成功案例&typeid=c1df6a010fbf4185926ccf35a85f6d3b&typepath=0.61d605b67e7c47d08d129a05bb370020.c1df6a010fbf4185926ccf35a85f6d3b&htmlName=c1df6a010fbf4185926ccf35a85f6d3b')"
+										href="javascript:void(0)">成功案例</a></li>
+								
+							</ul></li>
+					
+				
+					
+						<li><a href="javascript:void(0)"
+							onClick="openPage('../../news/qiantai/getNewsContent.do?demo=1&typename=关于我们&typeid=90d82cbf420141ef9df0085b3caf6ad4&typepath=0.90d82cbf420141ef9df0085b3caf6ad4&htmlName=90d82cbf420141ef9df0085b3caf6ad4')">关于我们</a></li>
+					
+					
+				
+					
+						<li><a href="javascript:void(0)"
+							onClick="openPage('../../news/qiantai/getNewsContent.do?demo=1&typename=联系我们&typeid=30c028fee63144cf8e3ed782235f90d7&typepath=0.30c028fee63144cf8e3ed782235f90d7&htmlName=30c028fee63144cf8e3ed782235f90d7')">联系我们</a></li>
+					
+					
+				
+					
+						<li><a href="javascript:void(0)"
+							onClick="openPage('../../common/qiantai/gotoPage.do?gotourl=news/liuyan&typename=留言&typeid=e8fcb0a6fbb149d99e7c5c21b811702e&typepath=0.e8fcb0a6fbb149d99e7c5c21b811702e&htmlName=e8fcb0a6fbb149d99e7c5c21b811702e')">留言</a></li>
+					
+					
+				
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+<div style="height: 60px;"></div>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<br />
+				<div class="jumbotron">
+					<img src="../../img/erweima.png"
+						style="width: 120px; height: 120px;" align="right" />
+					<h1>ShareMe.Ren</h1>
+					<p>晒迷人 为了更好 而更好</p>
+					<p>专业定制各种网站，为你展示最美的网络形象！</p>
+					<p>
+						<a class="btn btn-primary btn-large" href="#">即刻咨询 18103857686</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<img alt="300x200" src="../../img/1.png" />
+							<div class="caption">
+								<h3>网站开发</h3>
+								<p>做最好的互联网名片！</p>
+								<p>
+									<a class="btn btn-primary" href="../../news/qiantai/getNewsImgList.do?demo=1&typename=%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91&typeid=a846d56c74a8464a89d194ef08021317&typepath=0.983dc669958a49a7892c635988b4b76a.a846d56c74a8464a89d194ef08021317&htmlName=a846d56c74a8464a89d194ef08021317">了解</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<img alt="300x200" src="../../img/2.png" />
+							<div class="caption">
+								<h3>微信开发</h3>
+								<p>微信搭建最大的朋友圈！</p>
+								<p>
+									<a class="btn btn-primary" href="../../news/qiantai/getNewsList.do?demo=1&typename=%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91&typeid=b34133e0ef504ed4af68f1be4f4b4bda&typepath=0.983dc669958a49a7892c635988b4b76a.b34133e0ef504ed4af68f1be4f4b4bda&htmlName=b34133e0ef504ed4af68f1be4f4b4bda">了解</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<img alt="300x200" src="../../img/3.png" />
+							<div class="caption">
+								<h3>APP开发</h3>
+								<p>做自己的媒体，做自己的事业！</p>
+								<p>
+									<a class="btn btn-primary" href="../../news/qiantai/getNewsImgList.do?demo=1&typename=APP%E5%BC%80%E5%8F%91&typeid=9052a9d72dba4ff1b76ead6e7fbe3116&typepath=0.983dc669958a49a7892c635988b4b76a.9052a9d72dba4ff1b76ead6e7fbe3116&htmlName=9052a9d72dba4ff1b76ead6e7fbe3116">了解</a>
+								</p>
+							</div>
+						</div>
+					</div><div class="col-md-3">
+						<div class="thumbnail">
+							<img alt="300x200" src="../../img/4.png" />
+							<div class="caption">
+								<h3>办公软件开发</h3>
+								<p>管理自动化，利润最大化！</p>
+								<p>
+									<a class="btn btn-primary" href="../../news/qiantai/getNewsImgList.do?demo=1&typename=%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91&typeid=a54c14b8bfbd4d32a6aea6348f13123d&typepath=0.983dc669958a49a7892c635988b4b76a.a54c14b8bfbd4d32a6aea6348f13123d&htmlName=a54c14b8bfbd4d32a6aea6348f13123d">了解</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<p>
+					<strong>晒迷人</strong>始终以技术为发展的根基，以用户的体验为发展的动力，持续为用户提供优秀的网站！<em><small>马晨智</small></em>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+
+
+<br />
+<br />
+<br />
+<br />
+<div id="footer" class="container">
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+		<div class="navbar-inner navbar-content-center">
+			<p class="text-muted credit" style="padding: 10px;">晒迷人
+				版权所有©2014-2017 豫ICP备16002610号 <a
+					href="http://tongji.baidu.com/web/welcome/login" target="_blank">百度统计</a>
+				技术支持：晒迷人 18103857686
+			</p>
+		</div>
+	</nav>
+</div>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
